@@ -1,0 +1,81 @@
+1.  The result of the query 'father(X, 'Queen Elizabeth II').' is X = 'King George VI'
+
+2.  The result of the query 'grandmother(X, 'Queen Elizabeth II').' is X = 'Queen Mary'
+
+3.  The result of the query 'grandfather(X, 'Queen Elizabeth II').' is X = 'King George V'
+
+4.  The result of the query 'grandparent(X, 'Queen Elizabeth II').' is X = 'King George V'; X = 'Queen Mary'
+
+5.  The result of the query 'grandparent('Queen Elizabeth II', X).' is X = 'Prince William'; X = 'Prince Henry'
+
+6.  The result of the query 'sibling(X, 'Queen Elizabeth II').' is X = 'Princess Margaret'
+
+7.  The result of the query 'son(X, 'Queen Elizabeth II').' is X = 'Prince Charles'; X = 'Prince Andrew'; X = 'Prince Edward'
+
+8.  The result of the query 'daughter(X, 'Queen Elizabeth II').' is X = 'Princess Anne'
+
+9.  The result of the query 'aunt(X, 'Lady Diana Spencer').' is false
+
+10. The result of the query 'spouse(X, 'Prince William').' is X = 'Catherine Middleton'
+
+11. The result of the query 'ancestor(X, 'Prince Henry').' is
+  X = 'Prince Charles' ;
+  X = 'Lady Diana Spencer' ;
+  X = 'Queen Elizabeth II' ;
+  X = 'Prince Philip' ;
+  X = 'King George VI' ;
+  X = 'Lady Elizabeth Bowes-Lyon' ;
+  X = 'King George V' ;
+  X = 'Queen Mary' ;
+  X = 'King Edward VII' ;
+  X = 'Princess Alexandra of Denmark' ;
+  X = 'Prince Albert' ;
+  X = 'Queen Victoria'
+
+12. The result of the query 'descendant('Queen Victoria', Y).' is false
+
+13. The result of the query 'older('Prince Henry', 'Prince William').' is false
+
+14. The result of the query 'older(X, 'Queen Elizabeth II')' is
+  X = 'Queen Victoria' ;
+  X = 'Princess Alexandra of Denmark' ;
+  X = 'Queen Mary' ;
+  X = 'Mrs Simpson' ;
+  X = 'Lady Elizabeth Bowes-Lyon' ;
+  X = 'Prince Albert' ;
+  X = 'King Edward VII' ;
+  X = 'King George V' ;
+  X = 'King Edward VIII' ;
+  X = 'King George VI' ;
+  X = 'Prince Philip'
+
+15. The result of the query 'regentWhenBorn(X, 'Queen Elizabeth II').' is X = 'King George V'
+
+Extra Credit 1: The result of the Query 'cousin(X, 'Prince Charles').' is
+  X = 'Viscount Linley' ;
+  X = 'Lady Sarah Chatto'
+
+Extra Credit 2: The result of the Query 'cousin('Prince Charles', X).' is
+  X = 'Viscount Linley' ;
+  X = 'Lady Sarah Chatto'
+
+16. I really enjoy the simplistic power of Prolog. It made a lot of sense to me.
+    It was more of a quiz in my mind, you create these small algorithms to check
+    whether different things were true, then I asked the program questions. By saying like,
+    'cousin(X, 'Prince Charles')', I was essentially asking "who are prince Charles Cousins?",
+    and this made a lot of sense to me from a data perspective.
+
+17. Dealing with naming variables without filling an entire line of code was my only issue.
+    It was hard to keep track of all the variables especially once I started dealing with third
+    parties in the algorithms (checking uncles and aunts and the other similar algorithms).
+
+18. I actually really enjoyed this lab. I went into it dreading it, due to hearing how bad
+    Prolog was to learn, but I got the hang of it pretty quickly after working on in class
+    examples.
+
+19. I spent roughly 2 1/2 hours on this lab. There was just a bunch of really nit picky little
+    details or syntax I was messing up, mostly with variable names and positions of variables,
+    but other than that it didn't take very long.
+
+20. I would probably use Prolog again if I work on a project that is relevant. For being a language
+    for accessing data I would presume that it would be powerful for an AI or Machine Learning project.
